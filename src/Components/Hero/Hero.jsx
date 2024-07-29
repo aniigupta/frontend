@@ -4,23 +4,21 @@ import hand_icon from '../Assets/hand_icon.png';
 import arrow_icon from '../Assets/arrow.png';
 import hero_image from '../Assets/hero_image.png';
 
-
-  const Hero = () => {
-   
+const Hero = () => {
   return (
     <div className='Hero'>
       <div className='Hero-left'> 
         <h2>NEW ARRIVAL ONLY</h2>
-        <div className='hand-icon'>
+        <div className='hero-hand-icon'>
           <p>New</p>
           <img src={hand_icon} alt='Hand Icon' />
         </div>
         <p>collections</p>
         <p>for everyone</p>
-      </div>
-      <div className='hero-latest-btn'>
-        <div>Latest Collections</div>
-        <img src={arrow_icon} alt='Arrow Icon' />
+        <div className='hero-latest-btn'>
+          <div>Latest Collections</div>
+          <img src={arrow_icon} alt='Arrow Icon' />
+        </div>
       </div>
       <div className='Hero-right'>
         <img src={hero_image} alt='Hero' />
